@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "itemnametooltip",
+    "name": "ItemNameTooltip",
+    "description": "アイテム選択時のツールチップにアイテム名を表示します",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Petitsurume"],
+    "credits": "The Forge and FML guys, for making this example",
+    "logoFile": "",
+    "screenshots": ["ss.png"],
+    "dependencies": []
+  }
+]
