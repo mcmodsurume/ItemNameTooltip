@@ -29,7 +29,7 @@ public class ItemNameTooltip
         
         Item item = itemStack.getItem();
         String tipText = Item.itemRegistry.getNameForObject(item);
-        if (item.getDamage(itemStack) != 0) {
+        if (item.getDamage(itemStack) != 0 && !item.isDamageable()) {
             tipText += " "+Integer.toString(item.getDamage(itemStack));
         }
         tipText += "";
